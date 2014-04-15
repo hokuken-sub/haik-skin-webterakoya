@@ -1,0 +1,13 @@
+name: webterakoya
+version: 1.0.0
+thumbnail: img/thumbnail.png
+style_file: css/bootstrap_custom.css
+templates:
+  top:
+    filename: top.skin.php
+    layouts: 
+      - SiteNavigator
+      - SiteFooter
+    thumbnail: img/thumbnail.top.png
+
+default_template: top
