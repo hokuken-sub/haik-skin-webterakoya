@@ -5956,4 +5956,17 @@ td.visible-print {
 }
 body {
   background-image: url(../images/top_back.png);
+  background-repeat: repeat;
+}
+.wt-section-catch {
+  height: 306px;
+  padding: 60px 60px;
+  margin: 0;
+}
+.wt-section-catch h1 {
+  font-size: 31px;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #4a4949;
+  margin-bottom: 50px;
 }
