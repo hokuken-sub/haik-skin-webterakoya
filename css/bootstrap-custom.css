@@ -5954,3 +5954,6 @@ td.visible-print {
     display: none !important;
   }
 }
+body {
+  background-image: url(../images/top_back.png);
+}
