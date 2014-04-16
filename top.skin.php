@@ -25,16 +25,16 @@
 
 	<!-- Navbar
 	================================================== -->
-	<div id="orgm_navbar" class="navbar navbar-fixed-top">
+	<div id="haik_navbar" class="navbar navbar-fixed-top">
 		<div class="container">
-			
+			<div class="navbar-brand" id="logo">自分で考える力を育てる ウェブ寺子屋</div>
 			<div class="navbar-header navbar-right">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div id="logo">自分で考える力を育てる ウェブ寺子屋</div>
+				
 			</div>
 			
 			<nav class="navbar-collapse collapse navbar-right">
@@ -49,7 +49,7 @@
 	
 	<!-- EyeCatch
 	================================================== -->
-	<div id="orgm_eyecatch">
+	<div id="haik_eyecatch">
 		#{$eyecatch}
 	</div>
 
