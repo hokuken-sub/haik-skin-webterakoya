@@ -1,7 +1,7 @@
 name: webterakoya
 version: 1.0.0
 thumbnail: img/thumbnail.png
-style_file: css/bootstrap_custom.css
+style_file: css/bootstrap-custom.css
 templates:
   top:
     filename: top.skin.php
