@@ -25,7 +25,7 @@
 
 	<!-- Navbar
 	================================================== -->
-	<div id="haik_navbar" class="navbar navbar-fixed-top">
+	<div id="haik_navbar" class="navbar">
 		<div class="container">
 			<div class="navbar-brand" id="logo">自分で考える力を育てる ウェブ寺子屋</div>
 			<div class="navbar-header navbar-right">
