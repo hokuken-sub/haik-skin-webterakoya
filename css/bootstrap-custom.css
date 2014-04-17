@@ -255,7 +255,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -337,7 +337,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5961,7 +5961,6 @@ body {
 .wt-footer {
   color: #ababab;
   font-size: 11px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   line-height: 137px;
   padding: 30px;
@@ -5972,20 +5971,21 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-.navbar-brand {
-  color: black;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
-}
 .logo-image {
   padding-left: 0;
   padding-top: 0;
 }
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-brand {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
 .navbar .navbar-nav > li > a {
   color: #a0a0a0;
   font-size: 12.5px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
 }
 .navbar .navbar-nav > li > a:hover {
   color: #fff;
@@ -6000,7 +6000,6 @@ body {
 }
 .wt-section-catch h1 {
   font-size: 31px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #4a4949;
   margin-bottom: 50px;
@@ -6013,7 +6012,6 @@ body {
 }
 .wt-section-first h3 {
   font-size: 18px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -6032,7 +6030,6 @@ body {
 }
 .wt-section-merit .wt-merit-box h2 {
   font-size: 24px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   color: #dea653;
   margin-bottom: 50px;
 }
@@ -6047,7 +6044,6 @@ body {
   height: 135px;
   line-height: 135px;
   font-size: 21px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   color: #ffffff;
   padding: 0 0;
 }
@@ -6074,7 +6070,6 @@ body {
   height: 185px;
   width: 155px;
   margin: 0 auto;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   color: #000000;
   font-size: 12px;
 }
@@ -6103,7 +6098,6 @@ body {
 }
 .wt-section-form h2 {
   font-size: 24px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -6122,7 +6116,6 @@ body {
   line-height: 38px;
   padding: 0;
   font-size: 18px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
 }
 .wt-btn-regist2 {
   border-radius: 0px;
@@ -6136,13 +6129,11 @@ body {
   line-height: 38px;
   padding: 0;
   font-size: 18px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
 }
 .wt-btn-top {
   width: 162px;
   height: 34px;
   font-size: 13px;
-  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
   line-height: 34px;
   padding: 0;
   border-style: none;
