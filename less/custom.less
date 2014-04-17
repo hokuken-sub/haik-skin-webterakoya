@@ -1,6 +1,7 @@
 body{
   background-image: url(../images/top_back.png);
   background-repeat: repeat;
+  letter-spacing: 0.1em;
 }
 
 .wt-footer{
@@ -59,7 +60,7 @@ body{
   h1{
    font-size: 31px;
    font-weight: bold;
-   color: #4a4949;
+   color: #000000;
    margin-bottom: 50px; 
   }
    
@@ -85,6 +86,9 @@ body{
   height: 514px;
   padding: 0;
   
+  	@media (max-width: @screen-sm-max){
+	  	height: auto;
+  	}
   
   
   .wt-merit-box{
@@ -95,6 +99,10 @@ body{
   width: 917px;
   color: #dea653;
   font-size: 14px;
+  	@media (max-width: @screen-sm-max){
+	  	height: auto;
+	  	width: 100%;
+  	}
   
    h2{
     font-size: 24px;
@@ -130,7 +138,11 @@ body{
   padding: 30px 0 30px 0;
   margin:  151px auto 52px auto;
   position: relative;
-  
+    	@media (max-width: @screen-sm-max){
+	  	height: auto;
+	  	width:auto;
+     	}
+
   　h3{
     font-size: 18px;
     text-shadow: 5px 5px 3px #ddd;
@@ -158,9 +170,18 @@ body{
     margin: 0 auto;
     color: #000000;
     font-size: 12px;
+     @media (max-width: @screen-sm-max){
+	  	height: auto;
+	  	width:auto;
+     	}
+    
+    
     }
 
-  
+	@media (max-width: @screen-sm-max){
+		margin-left: 30px;
+		margin-right: 30px;
+	}
  }
 
 .wt-kouza-green{
@@ -191,10 +212,16 @@ body{
   position: relative;
   
     .touroku-label{
-    position: absolute;
-    top: 0;
-    right: 30px;
-       
+    position: relative;
+    display: none;
+    
+       @media (min-width: @screen-lg-min){
+         position: absolute;
+         top: 0;
+         right: 30px;
+         display: block;
+
+       }
   } 
 
   
@@ -235,7 +262,7 @@ body{
   border-style: none;
   box-shadow: 1px 1px 2px rgba(100,100,100,.50); 
   color: #7ed1c4;
-  width: 200px;
+  width: 150px;
   height: 38px;
   text-align: center;
   line-height: 38px;
