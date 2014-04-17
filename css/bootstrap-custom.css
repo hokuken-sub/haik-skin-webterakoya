@@ -3709,7 +3709,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -5957,6 +5957,38 @@ td.visible-print {
 body {
   background-image: url(../images/top_back.png);
   background-repeat: repeat;
+}
+.wt-footer {
+  color: #ababab;
+  font-size: 11px;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  line-height: 137px;
+  padding: 30px;
+  text-align: center;
+}
+.wt-footer a {
+  color: #ababab;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-brand {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
+}
+.logo-image {
+  padding-left: 0;
+  padding-top: 0;
+}
+.navbar .navbar-nav > li > a {
+  color: #a0a0a0;
+  font-size: 12.5px;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
+}
+.navbar .navbar-nav > li > a:hover {
+  color: #fff;
 }
 /*--------------------------
  * webterakoya sections
