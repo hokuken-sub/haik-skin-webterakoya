@@ -2016,8 +2016,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #f8b551;
-  border-color: #f7ab38;
+  background-color: #ff9f00;
+  border-color: #e68f00;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -2025,8 +2025,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #f6a42a;
-  border-color: #e98f09;
+  background-color: #d68600;
+  border-color: #a86900;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -2048,11 +2048,11 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f8b551;
-  border-color: #f7ab38;
+  background-color: #ff9f00;
+  border-color: #e68f00;
 }
 .btn-warning .badge {
-  color: #f8b551;
+  color: #ff9f00;
   background-color: #fff;
 }
 .btn-danger {
@@ -4285,11 +4285,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #31b0d5;
 }
 .label-warning {
-  background-color: #f8b551;
+  background-color: #ff9f00;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #f6a020;
+  background-color: #cc7f00;
 }
 .label-danger {
   background-color: #d9534f;
@@ -4534,7 +4534,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f8b551;
+  background-color: #ff9f00;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6000,13 +6000,14 @@ body {
   margin: 0;
 }
 .wt-section-catch h1 {
-  font-size: 31px;
+  font-size: 35px;
   font-weight: bold;
+  letter-spacing: 0.15em;
   color: #000000;
   margin-bottom: 50px;
 }
 .wt-section-first {
-  background-color: rgba(122, 168, 171, 0.8);
+  background-color: rgba(0, 138, 135, 0.8);
   height: 500px;
   padding: 30px 30px;
   margin: 0;
@@ -6031,7 +6032,7 @@ body {
   padding: 70px 0;
   height: 419px;
   width: 917px;
-  color: #dea653;
+  color: #ff9f00;
   font-size: 14px;
 }
 @media (max-width: 991px) {
@@ -6042,7 +6043,7 @@ body {
 }
 .wt-section-merit .wt-merit-box h2 {
   font-size: 24px;
-  color: #dea653;
+  color: #ff9f00;
   margin-bottom: 50px;
 }
 .wt-section-merit .wt-merit-box .wt-merit-item {
@@ -6051,7 +6052,7 @@ body {
   margin: 0 auto;
 }
 .wt-section-wakaba {
-  background-image: url(../images/top_back_green.png);
+  background-image: url(../images/wt-background-midori.png);
   background-repeat: repeat;
   height: 135px;
   line-height: 135px;
@@ -6105,17 +6106,17 @@ body {
 }
 .wt-section-kouza .wt-kouza-green {
   background-color: #ffffff;
-  border: 4px solid #b4bd64;
+  border: 4px solid #93A40B;
 }
 .wt-section-kouza .wt-kouza-green h3 {
   color: #99a341;
 }
 .wt-section-kouza .wt-kouza-orange {
   background-color: #ffffff;
-  border: 4px solid #dea653;
+  border: 4px solid #ff9f00;
 }
 .wt-section-form {
-  background-color: #7ed1c4;
+  background-color: #4CC4AD;
   padding: 30px 30px;
   margin: 0;
   box-shadow: 0 5px rgba(100, 100, 100, 0.4) inset;
@@ -6143,14 +6144,14 @@ body {
  */
 .wt-btn-regist1 {
   border-radius: 0px;
-  background-color: #dea653;
+  background-color: #ff9f00;
   border-style: none;
   box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.5);
   color: #ffffff;
-  width: 200px;
-  height: 38px;
+  width: 250px;
+  height: 45px;
   text-align: center;
-  line-height: 38px;
+  line-height: 45px;
   padding: 0;
   font-size: 18px;
 }
