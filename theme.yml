@@ -9,5 +9,12 @@ templates:
       - SiteNavigator
       - SiteFooter
     thumbnail: img/thumbnail.top.png
+  list:
+    filename: list.skin.php
+    layouts: 
+      - SiteNavigator
+      - MenuBar
+      - SiteFooter
+    thumbnail: img/thumbnail.top.png
 
 default_template: top

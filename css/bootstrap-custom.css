@@ -5959,6 +5959,10 @@ body {
   background-repeat: repeat;
   letter-spacing: 0.1em;
 }
+body.listpage {
+  background-image: url(../images/wt-background2.png);
+  background-repeat: repeat;
+}
 footer {
   color: #ababab;
   font-size: 11px;
@@ -5971,6 +5975,9 @@ footer a {
   margin: 0 auto;
   text-align: center;
 }
+footer .wt-footer-size {
+  margin-top: 40px;
+}
 .logo-image {
   padding-left: 0;
   padding-top: 0;
@@ -5982,6 +5989,7 @@ footer a {
   color: black;
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 .navbar .navbar-nav > li > a {
   color: #a0a0a0;
@@ -5991,9 +5999,44 @@ footer a {
   color: #fff;
 }
 /*--------------------------
+ * webterakoya menu
+ */
+.wt-menu {
+  text-align: center;
+}
+.wt-menu .wt-menurap {
+  margin-left: 14px;
+  margin-right: 40px;
+}
+.wt-menu .wt-menubox {
+  background-color: #fff;
+  border: 5px solid #eeeeee;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 25px 0 20px 0;
+  /* 		margin: 10px; */
+}
+.wt-menu .wt-menubox ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.wt-menu .wt-menubox ul a {
+  color: #000;
+  font-weight: bold;
+}
+.wt-menu .wt-menubox ul a:hover,
+.wt-menu .wt-menubox ul a:focus {
+  color: #000;
+  background-color: #98E9D9;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+/*--------------------------
  * webterakoya sections
  */
-.haik-plugin-section .jumbotoron {
+.haik-plugin-section .jumbotron {
   background-color: transparent;
 }
 .haik-plugin-section .wt-section-catch {
@@ -6144,6 +6187,47 @@ footer a {
   font-size: 24px;
   color: #ffffff;
   margin-bottom: 30px;
+}
+/*--------------------------
+ * webterakoya listpage contens
+ */
+.wt-kouzalist {
+  font-size: 14px;
+  color: #ff9f00;
+}
+.wt-kouzalist h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 0.2em;
+}
+.wt-kouzalist .wt-tab-category {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #000;
+  height: 24px;
+  width: 120px;
+}
+.wt-kouzalist .wt-tab-course {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #000;
+  height: 24px;
+  width: 185px;
+}
+.wt-kouzalist .tab-content .tab-pane {
+  color: #000;
+  font-size: 13px;
+}
+.wt-kouzalist .tab-content .tab-pane .wt-kouzabox {
+  background-color: #fff;
+  border: 4px solid #ff9f00;
+}
+.wt-kouzalist .wt-recommendbox {
+  background-color: #fff;
+  border: 4px solid #4CC4AD;
 }
 /*--------------------------
  * webterakoya buttons
