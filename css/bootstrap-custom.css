@@ -1943,7 +1943,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #333333;
-  background-color: #ebebeb;
+  background-color: #ffffff;
   border-color: #adadad;
 }
 .btn-default:active,
@@ -1984,7 +1984,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #3276b1;
+  background-color: #72a8d7;
   border-color: #285e8e;
 }
 .btn-primary:active,
@@ -2025,7 +2025,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #d68600;
+  background-color: #ffb63d;
   border-color: #a86900;
 }
 .btn-warning:active,
@@ -2066,7 +2066,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #d2322d;
+  background-color: #e48481;
   border-color: #ac2925;
 }
 .btn-danger:active,
@@ -2107,7 +2107,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #47a447;
+  background-color: #87cb87;
   border-color: #398439;
 }
 .btn-success:active,
@@ -2148,7 +2148,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #39b3d7;
+  background-color: #8ed4e8;
   border-color: #269abc;
 }
 .btn-info:active,
@@ -5959,15 +5959,14 @@ body {
   background-repeat: repeat;
   letter-spacing: 0.1em;
 }
-.wt-footer {
+footer {
   color: #ababab;
   font-size: 11px;
   background-color: #ffffff;
-  line-height: 137px;
   padding: 30px;
   text-align: center;
 }
-.wt-footer a {
+footer a {
   color: #ababab;
   margin: 0 auto;
   text-align: center;
@@ -5994,39 +5993,47 @@ body {
 /*--------------------------
  * webterakoya sections
  */
-.wt-section-catch {
+.haik-plugin-section .jumbotoron {
+  background-color: transparent;
+}
+.haik-plugin-section .wt-section-catch {
   height: 306px;
   padding: 60px 60px;
   margin: 0;
 }
-.wt-section-catch h1 {
+.haik-plugin-section .wt-section-catch h1 {
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 0.15em;
   color: #000000;
   margin-bottom: 50px;
 }
-.wt-section-first {
+.haik-plugin-section .wt-section-first {
   background-color: rgba(0, 138, 135, 0.8);
   height: 500px;
   padding: 30px 30px;
   margin: 0;
 }
-.wt-section-first h3 {
+@media (max-width: 991px) {
+  .haik-plugin-section .wt-section-first img {
+    max-width: 100%;
+  }
+}
+.haik-plugin-section .wt-section-first h3 {
   font-size: 18px;
   color: #ffffff;
   margin-bottom: 30px;
 }
-.wt-section-merit {
+.haik-plugin-section .wt-section-merit {
   height: 514px;
   padding: 0;
 }
 @media (max-width: 991px) {
-  .wt-section-merit {
+  .haik-plugin-section .wt-section-merit {
     height: auto;
   }
 }
-.wt-section-merit .wt-merit-box {
+.haik-plugin-section .wt-section-merit .wt-merit-box {
   background-color: #ffffff;
   margin: 40px auto;
   padding: 70px 0;
@@ -6036,43 +6043,42 @@ body {
   font-size: 14px;
 }
 @media (max-width: 991px) {
-  .wt-section-merit .wt-merit-box {
+  .haik-plugin-section .wt-section-merit .wt-merit-box {
     height: auto;
     width: 100%;
   }
 }
-.wt-section-merit .wt-merit-box h2 {
+.haik-plugin-section .wt-section-merit .wt-merit-box h2 {
   font-size: 24px;
   color: #ff9f00;
   margin-bottom: 50px;
 }
-.wt-section-merit .wt-merit-box .wt-merit-item {
+.haik-plugin-section .wt-section-merit .wt-merit-box .wt-merit-item {
   height: 214px;
   width: 189px;
   margin: 0 auto;
 }
-.wt-section-wakaba {
+.haik-plugin-section .wt-section-wakaba {
   background-image: url(../images/wt-background-midori.png);
   background-repeat: repeat;
   height: 135px;
-  line-height: 135px;
   font-size: 21px;
   color: #ffffff;
   padding: 0 0;
 }
-.wt-section-kouza .wt-kouza-box {
+.haik-plugin-section .wt-section-kouza .wt-kouza-box {
   width: 678px;
   padding: 30px 0 30px 0;
   margin: 151px auto 52px auto;
   position: relative;
 }
 @media (max-width: 991px) {
-  .wt-section-kouza .wt-kouza-box {
+  .haik-plugin-section .wt-section-kouza .wt-kouza-box {
     height: auto;
     width: auto;
   }
 }
-.wt-section-kouza .wt-kouza-box h3 {
+.haik-plugin-section .wt-section-kouza .wt-kouza-box h3 {
   font-size: 18px;
   text-shadow: 5px 5px 3px #ddd;
   letter-spacing: 0.2em;
@@ -6080,12 +6086,12 @@ body {
   margin-bottom: 30px;
   padding-left: 15px;
 }
-.wt-section-kouza .wt-kouza-box .fukidashi {
+.haik-plugin-section .wt-section-kouza .wt-kouza-box .fukidashi {
   position: absolute;
   top: -120px;
   left: -55px;
 }
-.wt-section-kouza .wt-kouza-box .wt-kouza-item {
+.haik-plugin-section .wt-section-kouza .wt-kouza-box .wt-kouza-item {
   height: 185px;
   width: 155px;
   margin: 0 auto;
@@ -6093,48 +6099,48 @@ body {
   font-size: 12px;
 }
 @media (max-width: 991px) {
-  .wt-section-kouza .wt-kouza-box .wt-kouza-item {
+  .haik-plugin-section .wt-section-kouza .wt-kouza-box .wt-kouza-item {
     height: auto;
     width: auto;
   }
 }
 @media (max-width: 991px) {
-  .wt-section-kouza .wt-kouza-box {
+  .haik-plugin-section .wt-section-kouza .wt-kouza-box {
     margin-left: 30px;
     margin-right: 30px;
   }
 }
-.wt-section-kouza .wt-kouza-green {
+.haik-plugin-section .wt-section-kouza .wt-kouza-green {
   background-color: #ffffff;
   border: 4px solid #93A40B;
 }
-.wt-section-kouza .wt-kouza-green h3 {
+.haik-plugin-section .wt-section-kouza .wt-kouza-green h3 {
   color: #99a341;
 }
-.wt-section-kouza .wt-kouza-orange {
+.haik-plugin-section .wt-section-kouza .wt-kouza-orange {
   background-color: #ffffff;
   border: 4px solid #ff9f00;
 }
-.wt-section-form {
+.haik-plugin-section .wt-section-form {
   background-color: #4CC4AD;
   padding: 30px 30px;
   margin: 0;
   box-shadow: 0 5px rgba(100, 100, 100, 0.4) inset;
   position: relative;
 }
-.wt-section-form .touroku-label {
+.haik-plugin-section .wt-section-form .touroku-label {
   position: relative;
   display: none;
 }
 @media (min-width: 1200px) {
-  .wt-section-form .touroku-label {
+  .haik-plugin-section .wt-section-form .touroku-label {
     position: absolute;
     top: 0;
     right: 30px;
     display: block;
   }
 }
-.wt-section-form h2 {
+.haik-plugin-section .wt-section-form h2 {
   font-size: 24px;
   color: #ffffff;
   margin-bottom: 30px;
@@ -6154,6 +6160,9 @@ body {
   line-height: 45px;
   padding: 0;
   font-size: 18px;
+}
+.wt-btn-regist1:hover {
+  background-color: #F2D027;
 }
 .wt-btn-regist2 {
   border-radius: 0px;
