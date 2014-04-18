@@ -6019,14 +6019,6 @@ footer .wt-footer-size {
   color: #000;
   letter-spacing: 0.2em;
 }
-.wt-kouzalist .wt-tab-category {
-  font-size: 12px;
-  background-color: #fff;
-  border: 1px solid #eee;
-  color: #000;
-  height: 24px;
-  width: 120px;
-}
 .wt-kouzalist .wt-tab-course {
   font-size: 12px;
   background-color: #fff;
@@ -6035,17 +6027,49 @@ footer .wt-footer-size {
   height: 24px;
   width: 185px;
 }
+.wt-kouzalist .nav-tabs {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #000;
+  border-bottom: none;
+}
+.wt-kouzalist .nav-tabs li a {
+  height: 24px;
+  padding: 0 15px;
+  line-height: 24px;
+  margin: 0 0 40px 30px;
+  z-index: 1;
+}
+.wt-kouzalist .nav-tabs li.active a {
+  border-style: none;
+}
+.wt-kouzalist .tab-content {
+  color: #dea653;
+  font-size: 18px;
+}
 .wt-kouzalist .tab-content .tab-pane {
   color: #000;
   font-size: 13px;
 }
 .wt-kouzalist .tab-content .tab-pane .wt-kouzabox {
-  background-color: #fff;
-  border: 4px solid #ff9f00;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px solid #dea653;
+  margin-right: 50px;
+  padding: 70px 50px 50px 50px;
 }
-.wt-kouzalist .wt-recommendbox {
+.wt-kouzalist .tab-content .tab-pane .wt-kouzabox .wt-kouzacontent {
+  margin-bottom: 30px;
+}
+.wt-rm-hukidashi {
+  margin: 30px 0 0 0;
+  padding-left: 0;
+}
+.wt-recommendbox {
   background-color: #fff;
   border: 4px solid #4CC4AD;
+  margin-right: 50px;
+  padding: 30px;
 }
 /*--------------------------
  * webterakoya buttons

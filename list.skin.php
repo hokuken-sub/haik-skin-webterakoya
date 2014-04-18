@@ -57,7 +57,7 @@
 <!-- Body
 ================================================== -->
 
-<div id="contents">
+<div class="container-fluid" id="contents">
 	<div class="row">
 		<div class="col-sm-3 wt-menu" role="menu">
 			#{$menu}
