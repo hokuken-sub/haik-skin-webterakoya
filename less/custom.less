@@ -4,7 +4,7 @@ body{
   letter-spacing: 0.1em;
 }
 
-.wt-footer{
+footer{
   a{
     color: #ababab; 
     margin: 0 auto;
@@ -15,7 +15,6 @@ body{
   color: #ababab;
   font-size: 11px;
   background-color: #ffffff;
-  line-height: 137px;
   padding: 30px;
   text-align: center;
   
@@ -51,6 +50,12 @@ body{
 /*--------------------------
  * webterakoya sections
  */
+.haik-plugin-section {
+	.jumbotoron {
+		background-color: transparent;
+		
+	}
+	
 
 .wt-section-catch{
   height: 306px;
@@ -73,6 +78,14 @@ body{
   height: 500px;
   padding: 30px 30px;
   margin: 0;
+  	@media (max-width: @screen-sm-max){
+	  	img{
+	  	max-width: 100%;
+		  	
+	  	}
+  	}
+  
+  
 
   h3{
     font-size: 18px;
@@ -126,7 +139,6 @@ body{
   background-image: url(../images/wt-background-midori.png);
   background-repeat: repeat;
   height: 135px;
-  line-height: 135px;
   font-size: 21px;
   color: #ffffff;
   padding: 0 0; 
@@ -236,7 +248,7 @@ body{
   
 }
 
-
+}
 
 /*--------------------------
  * webterakoya buttons
@@ -253,6 +265,10 @@ body{
   line-height: 45px;
   padding: 0;
   font-size: 18px;
+  
+   &:hover{
+	   background-color: #F2D027;
+   }
 
 }
 
