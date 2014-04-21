@@ -5822,33 +5822,32 @@ footer .wt-footer-size {
 .wt-menu {
   text-align: center;
 }
-.wt-menu .wt-menurap {
-  margin-left: 14px;
-  margin-right: 40px;
-}
-.wt-menu .wt-menubox {
+.wt-menu .wt-menuwrap ul {
+  border: 5px solid #eee;
   background-color: #fff;
-  border: 5px solid #eeeeee;
   font-size: 12px;
-  box-sizing: border-box;
-  padding: 25px 0 20px 0;
-  /* 		margin: 10px; */
-}
-.wt-menu .wt-menubox ul {
+  width: 198px;
   list-style: none;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
-.wt-menu .wt-menubox ul a {
+.wt-menu .wt-menuwrap ul li {
+  border-bottom: 1px solid #eee;
+}
+.wt-menu .wt-menuwrap ul li:last-child {
+  border-bottom-style: none;
+}
+.wt-menu .wt-menuwrap ul a {
   color: #000;
   font-weight: bold;
+  display: block;
+  padding: 15px 40px;
 }
-.wt-menu .wt-menubox ul a:hover,
-.wt-menu .wt-menubox ul a:focus {
+.wt-menu .wt-menuwrap ul a:hover,
+.wt-menu .wt-menuwrap ul a:focus {
   color: #000;
   background-color: #98E9D9;
-  padding: 15px 40px;
   text-decoration: none;
 }
 /*--------------------------
@@ -6042,19 +6041,34 @@ footer .wt-footer-size {
 .wt-kouzalist .nav-tabs {
   font-size: 12px;
   font-weight: 100;
-  background-color: #fff;
-  border: 1px solid #eee;
-  color: #000;
   border-bottom: none;
 }
 .wt-kouzalist .nav-tabs li a {
   height: 24px;
   padding: 0 15px;
   line-height: 24px;
-  margin: 0 0 40px 30px;
+  margin: 0 0 20px 30px;
+  border: 0;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #535353;
 }
 .wt-kouzalist .nav-tabs li.active a {
   border-style: none;
+  background-color: #ff9f00;
+  border: 1px solid #eee;
+  color: #fff;
+}
+.wt-kouzalist .wt-tab {
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #ccc;
+  padding: 5px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #666;
 }
 .wt-kouzalist .tab-content {
   color: #dea653;
@@ -6069,13 +6083,15 @@ footer .wt-footer-size {
   background-color: rgba(255, 255, 255, 0.5);
   border: 4px solid #dea653;
   margin-right: 50px;
+  margin-left: 20px;
   padding: 70px 50px 50px 50px;
 }
 .wt-kouzalist .tab-content .tab-pane .wt-kouzabox .wt-kouzacontent {
   margin-bottom: 30px;
 }
 .wt-rm-hukidashi {
-  margin: 30px 0 0 0;
+  margin-top: 30px;
+  margin-left: -10px;
   padding-left: 0;
 }
 .wt-recommendbox {
@@ -6084,6 +6100,7 @@ footer .wt-footer-size {
   margin-right: 50px;
   padding: 30px;
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 /*--------------------------
  * webterakoya buttons
