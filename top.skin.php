@@ -71,7 +71,7 @@
 
 <!-- Footer
 ================================================== -->
-<footer class="footer">
+<footer class="wt-footer">
 	<div class="container">
 		<div class="row">
 			#{$site_footer}

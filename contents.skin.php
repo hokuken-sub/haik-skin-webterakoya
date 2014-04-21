@@ -78,12 +78,8 @@
 
 <!-- Footer
 ================================================== -->
-<footer class="footer">
-	<div class="container">
-		<div class="row">
-			#{$site_footer}
-		</div>
-	</div>
+<footer>
+				#{$site_footer}
 	<div id="license" class="container">
 		#{$license_tag}
 	</div>
