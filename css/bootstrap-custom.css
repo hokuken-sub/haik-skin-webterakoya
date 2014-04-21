@@ -2042,7 +2042,7 @@ fieldset[disabled] .btn {
 .open .dropdown-toggle.btn-default {
   color: #333333;
   background-color: #ffffff;
-  border-color: #adadad;
+  border-color: #ebebeb;
 }
 .btn-default:active,
 .btn-default.active,
@@ -2083,7 +2083,7 @@ fieldset[disabled] .btn-default.active {
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #72a8d7;
-  border-color: #285e8e;
+  border-color: #5e9cd2;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2124,7 +2124,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
   background-color: #87cb87;
-  border-color: #398439;
+  border-color: #75c375;
 }
 .btn-success:active,
 .btn-success.active,
@@ -2165,7 +2165,7 @@ fieldset[disabled] .btn-success.active {
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
   background-color: #8ed4e8;
-  border-color: #269abc;
+  border-color: #79cbe4;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2206,7 +2206,7 @@ fieldset[disabled] .btn-info.active {
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
   background-color: #ffb63d;
-  border-color: #a86900;
+  border-color: #ffac24;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -2237,8 +2237,8 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #ff7d6f;
+  border-color: #ff7d6f;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -2246,8 +2246,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #e48481;
-  border-color: #ac2925;
+  background-color: #ffb4ac;
+  border-color: #ffb4ac;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -2269,11 +2269,11 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #ff7d6f;
+  border-color: #ff7d6f;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color: #ff7d6f;
   background-color: #ffffff;
 }
 .btn-link {
@@ -4309,11 +4309,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #cc7f00;
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #ff7d6f;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #ff4f3c;
 }
 .badge {
   display: inline-block;
@@ -4557,7 +4557,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #ff7d6f;
 }
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6101,6 +6101,40 @@ footer .wt-footer-size {
   padding: 30px;
   margin-bottom: 40px;
   margin-left: 20px;
+}
+/*--------------------------
+ * webterakoya Kouza contents
+ */
+.wt-kouzatitle h1 {
+  font-size: 24px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  color: #000;
+}
+.wt-download {
+  background-color: #eee;
+  margin: 15px 30px 30px 0;
+  padding: 40px;
+}
+.wt-kouza-contents {
+  margin-left: 0;
+  margin-right: 30px;
+}
+.wt-kouza-contents .wt-kouza-explanation {
+  color: #504f4f;
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.wt-kouza-contents .wt-kouza-relation {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+.wt-kouza-contents .wt-kouza-relation h3 {
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
 }
 /*--------------------------
  * webterakoya buttons
