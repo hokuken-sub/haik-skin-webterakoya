@@ -6009,6 +6009,10 @@ footer .wt-footer-size {
 /*--------------------------
  * webterakoya listpage contens
  */
+.wt-hr {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+}
 .wt-kouzalist {
   font-size: 14px;
   color: #ff9f00;
@@ -6024,6 +6028,8 @@ footer .wt-footer-size {
   font-size: 9px;
   color: #bfbfbf;
   font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 .wt-kouzalist .wt-tab-course {
   font-size: 12px;
