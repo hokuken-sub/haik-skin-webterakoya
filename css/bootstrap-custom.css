@@ -5918,6 +5918,9 @@ body.listpage {
   width: 189px;
   margin: 0 auto;
 }
+.haik-plugin-section .wt-section-merit .wt-merit-box .wt-merit-item p {
+  font-size: 13px;
+}
 .haik-plugin-section .wt-section-wakaba {
   background-image: url(../images/wt-background-midori.png);
   background-repeat: repeat;
@@ -6003,6 +6006,10 @@ body.listpage {
 .haik-plugin-section .wt-section-form h2 {
   font-size: 24px;
   color: #ffffff;
+}
+.haik-plugin-section .wt-section-form h3 {
+  font-size: 14px;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 /*--------------------------
@@ -6079,11 +6086,39 @@ body.listpage {
   color: #000;
   font-size: 13px;
 }
+.wt-kouzalist .tab-content .tab-pane .wt-item-mylist {
+  background-color: #f7f7f7;
+  margin: 0 70px 50px 0;
+  padding: 0 0 20px 0;
+}
+.wt-kouzalist .tab-content .tab-pane .wt-item-mylist .wt-mycontents-item {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 50px;
+  margin: 20px -15px 0px -15px;
+}
+.wt-kouzalist .tab-content .tab-pane .wt-item-mylist .wt-mycontents-item #triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #fff;
+}
+.wt-kouzalist .tab-content .tab-pane .wt-item-mylist .wt-mycontents-item h3 {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.wt-kouzalist .tab-content .tab-pane .wt-item-mylist .wt-mycontents-item p {
+  color: #9f9f9f;
+  font-size: 11px;
+  text-align: right;
+}
 .wt-kouzalist .tab-content .tab-pane .wt-kouzabox {
   background-color: rgba(255, 255, 255, 0.5);
   border: 4px solid #dea653;
-  margin-right: 50px;
-  margin-left: 20px;
+  margin-right: 70px;
+  margin-left: 1px;
   padding: 70px 50px 50px 50px;
 }
 .wt-kouzalist .tab-content .tab-pane .wt-kouzabox .wt-kouzacontent {
@@ -6091,20 +6126,23 @@ body.listpage {
 }
 .wt-rm-hukidashi {
   margin-top: 30px;
-  margin-left: -10px;
+  margin-left: 10px;
   padding-left: 0;
 }
 .wt-recommendbox {
   background-color: #fff;
   border: 4px solid #4CC4AD;
-  margin-right: 50px;
+  margin-right: 70px;
   padding: 30px;
   margin-bottom: 40px;
-  margin-left: 20px;
+  margin-left: 1px;
 }
 /*--------------------------
  * webterakoya Kouza contents
  */
+.contents-breadcrumb {
+  padding-left: 0;
+}
 .wt-kouzatitle h1 {
   font-size: 24px;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
@@ -6112,12 +6150,12 @@ body.listpage {
 }
 .wt-download {
   background-color: #eee;
-  margin: 15px 30px 30px 0;
+  margin: 15px 70px 30px 0;
   padding: 40px;
 }
 .wt-kouza-contents {
   margin-left: 0;
-  margin-right: 30px;
+  margin-right: 70px;
 }
 .wt-kouza-contents .wt-kouza-explanation {
   color: #504f4f;
@@ -6175,9 +6213,37 @@ body.listpage {
   margin-right: 50px;
 }
 /*--------------------------
+ * webterakoya My desk
+ */
+.wt-mydesk-tab {
+  font-size: 12px;
+  font-weight: 100;
+  border: 1px solid #eee;
+  /*--------------------------
  * webterakoya buttons
  */
-.wt-btn-regist1 {
+  /*--------------------------
+ * Tools
+ */
+}
+.wt-mydesk-tab li a {
+  height: 24px;
+  padding: 0 15px;
+  line-height: 24px;
+  margin: 0 0 20px 30px;
+  border: 0;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #535353;
+}
+.wt-mydesk-tab li.active a {
+  border-style: none;
+  background-color: #ff9f00;
+  border: 1px solid #eee;
+  color: #fff;
+}
+.wt-mydesk-tab .wt-btn-regist1 {
   border-radius: 0px;
   background-color: #ff9f00;
   border-style: none;
@@ -6190,10 +6256,10 @@ body.listpage {
   padding: 0;
   font-size: 18px;
 }
-.wt-btn-regist1:hover {
+.wt-mydesk-tab .wt-btn-regist1:hover {
   background-color: #F2D027;
 }
-.wt-btn-regist2 {
+.wt-mydesk-tab .wt-btn-regist2 {
   border-radius: 0px;
   background-color: #ffffff;
   border-style: none;
@@ -6206,7 +6272,11 @@ body.listpage {
   padding: 0;
   font-size: 18px;
 }
-.wt-btn-top {
+.wt-mydesk-tab .wt-btn-regist2:hover {
+  background-color: #7ed1c4;
+  color: #fff;
+}
+.wt-mydesk-tab .wt-btn-top {
   width: 162px;
   height: 34px;
   font-size: 13px;
@@ -6214,7 +6284,7 @@ body.listpage {
   padding: 0;
   border-style: none;
 }
-.wt-btn-comment {
+.wt-mydesk-tab .wt-btn-comment {
   border-radius: 0px;
   background-color: #88abda;
   border-style: none;
@@ -6226,13 +6296,10 @@ body.listpage {
   padding: 0;
   font-size: 12px;
 }
-.wt-btn-comment:hover {
+.wt-mydesk-tab .wt-btn-comment:hover {
   background-color: #a6cbfc;
   color: #fff;
 }
-/*--------------------------
- * Tools
- */
-.MB30 {
+.wt-mydesk-tab .MB30 {
   margin-bottom: 30px;
 }
