@@ -502,40 +502,102 @@ body{
  * webterakoya My desk
  */
  
-.wt-kouzalist.wt-mydesktabs.wt-kouzalist.nav-tabs{
-  font-size: 12px;
-  font-weight: 100;
-  border: 1px solid #eee;
-  background-color: #fff;
+.wt-mydesktabs {
+	
+  ul.nav-tabs{
 
-  li >a {
-      height: 48px;
-      border: 1px solid #eee;
-      background-color: #fff;
-      color: #535353;
+    li{
+      margin-left: 0;
+      margin-bottom: 0;
       
+      a{
+        height: 48px;
+        width: 134px;
+        border: 1px solid #eee;
+        background-color: #fff;
+        color: #535353;  
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+        line-height: 48px;
+        color: #a0a0a0;
+        font-size: 13px;
+        font-weight: bold;
+        
+            
+      }
         &.active a{
-           background-color: #98E9D9;
+           background-color: #fff;
+           color: #000;
+           border-top: 5px solid #98E9D9;
          }
     }
+  }
+    
+  .tab-content .tab-pane{
+    .wt-mylist-tab{
+    
+      li{
+        a{
+          height: 48px;
+          background-color: transparent;
+          color: #666666;      
+          width: 80px;
+          font-size: 12px;
+          
+        }
+        
+          &.active a:after {
+              content: ' ';
+              height: 0;
+              position: absolute;
+              width: 0;
+              border: 10px solid transparent;
+              border-bottom-color: #FFF;
+              bottom: -1px;
+              left: 50%;
+              margin-left: -10px;         
+          }
+          
+          &.active a:before {
+            border-width: 14px;
+            border-left-color: #333;
+            top: 10px;
+          }
+
+        
+        
+        &.active a{
+           background-color: transparent;
+           color: #2b2b2b;
+           border-top: none;                       
+          
+        }
+      }
+    }
+  }
 }
+
+
 
 
 .wt-item-mylist{
   background-color: #eee;
-  margin: 0 70px 50px 0;
-  padding: 0 0 20px 0;
+  margin: 0 100px 50px 0;
+  padding: 0;
   
   .wt-mycontents-item{
     background-color: #fff;
     border-bottom: 1px solid #eee;
-    padding: 50px;
+    padding: 50px 100px 50px 80px;
     margin: 0 -15px 0px -15px;
   										 
     h3{
       font-size: 14px;
+      font-weight: 100;
       margin-top: 40px;
       margin-bottom: 30px;
+      
     }
   
     p{
@@ -611,6 +673,11 @@ body{
   font-size: 12px;
 }
 
+
+.btn.btn-danger.wt-mylist-btn{
+  width: 190px;
+  
+}
 /*--------------------------
  * Tools
  */
