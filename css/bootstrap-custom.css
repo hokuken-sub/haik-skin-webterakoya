@@ -5850,6 +5850,38 @@ body.listpage {
   background-color: #98E9D9;
   text-decoration: none;
 }
+.wt-menu-study ul {
+  margin: 0 auto;
+  list-style: none;
+}
+.wt-menu-study ul li {
+  margin-top: 30px;
+}
+.wt-menu-study ul li a {
+  color: #82d0c4;
+  font-size: 13px;
+  position: relative;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 10px;
+}
+.wt-menu-study ul li a:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+  border: 7px solid transparent;
+  border-left-color: #82d0c4;
+  top: 8px;
+  left: -20px;
+}
+.wt-menu-study ul li a:hover,
+.wt-menu-study ul li a:focus {
+  color: #3fad9c;
+  text-decoration: none;
+}
 /*--------------------------
  * webterakoya sections
  */
