@@ -373,23 +373,16 @@ footer{
     padding-left: 0; 
   }
   
-  .wt-tab-course{
-    font-size: 12px;
-    background-color: #fff;
-    border: 1px solid #eee;
-  	color: #000;
-  	height: 24px;
-  	width: 185px;
-  }
-
   .nav-tabs{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 100;
     border-bottom: none;
 
     li{
       a{
         height: 24px;
+        width: 120px;
+        text-align: center;
         padding: 0 15px;
         line-height: 24px;
         margin: 0 0 20px 30px;
@@ -397,7 +390,7 @@ footer{
         border-radius:0;
         background-color: #fff;
         border:1px solid #eee;
-        color: #535353
+        color: #535353;
       }
 
 			&.active a{
@@ -406,24 +399,10 @@ footer{
         border:1px solid #eee;
         color: #fff;
       }
-    }
-
-        
+    }       
   } 
 
   
-  /* ゆくえしらず */
-	.wt-tab{
-    border-top: 1px solid #ccc;  
-    border-right: 1px solid #999;  
-    border-bottom: 1px solid #999;  
-    border-left: 1px solid #ccc;  
-    padding: 5px 20px;  
-    font-weight: bold;  
-    cursor: pointer;  
-    color: #666;  
-  }
-
   .tab-content{
     color: #dea653;
     font-size: 18px;
@@ -475,8 +454,9 @@ footer{
 
   h1{
     font-size: 24px;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-family:"游明朝","Yu Mincho", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     color: #000;
+    letter-spacing: 0.3em;
   }
 }
  
@@ -767,6 +747,34 @@ footer{
           
         }        
     }
+ }
+ 
+ 
+ #wt_myinfo_modal{
+   .modal-dialog{
+     .modal-content{
+      background-color: rgba(255,255,255,.9);
+      
+      h4{
+        text-align: center;
+        padding-left: 20px;
+      }
+      
+      .form-group{
+        color: #535353;
+      }
+      
+      .input-group{
+        background-color: transparent;
+      }
+      
+      .input-group-addon{
+        border: none;        
+      }
+      
+     }
+     
+   }
  }
  
  
