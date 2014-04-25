@@ -6357,6 +6357,30 @@ footer {
   text-align: right;
 }
 /*--------------------------
+ * My desk setting
+ */
+.wt-setting {
+  background-color: #fff;
+  font-size: 14px;
+  margin: 0 100px 50px 0;
+  padding: 50px;
+}
+.wt-setting p {
+  margin-bottom: 50px;
+}
+.wt-setting .wt-setting-item {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 50px;
+}
+.wt-setting .wt-setting-item .wt-setting-list {
+  font-size: 14px;
+  font-weight: bold;
+}
+.wt-setting .wt-setting-item .btn-default:focus {
+  color: #fff;
+  background-color: #7baabf;
+}
+/*--------------------------
  * webterakoya buttons
  */
 .wt-btn-regist1 {
