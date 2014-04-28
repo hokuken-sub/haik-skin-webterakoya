@@ -6068,7 +6068,6 @@ footer {
   font-size: 14px;
   color: #ff9f00;
   font-weight: bold;
-  /* ゆくえしらず */
 }
 .wt-kouzalist h3 {
   font-size: 18px;
@@ -6084,21 +6083,15 @@ footer {
   margin-bottom: 0;
   padding-left: 0;
 }
-.wt-kouzalist .wt-tab-course {
-  font-size: 12px;
-  background-color: #fff;
-  border: 1px solid #eee;
-  color: #000;
-  height: 24px;
-  width: 185px;
-}
 .wt-kouzalist .nav-tabs {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 100;
   border-bottom: none;
 }
 .wt-kouzalist .nav-tabs li a {
   height: 24px;
+  width: 120px;
+  text-align: center;
   padding: 0 15px;
   line-height: 24px;
   margin: 0 0 20px 30px;
@@ -6113,16 +6106,6 @@ footer {
   background-color: #ff9f00;
   border: 1px solid #eee;
   color: #fff;
-}
-.wt-kouzalist .wt-tab {
-  border-top: 1px solid #ccc;
-  border-right: 1px solid #999;
-  border-bottom: 1px solid #999;
-  border-left: 1px solid #ccc;
-  padding: 5px 20px;
-  font-weight: bold;
-  cursor: pointer;
-  color: #666;
 }
 .wt-kouzalist .tab-content {
   color: #dea653;
@@ -6164,8 +6147,9 @@ footer {
 }
 .wt-kouzatitle h1 {
   font-size: 24px;
-  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-family: "游明朝", "Yu Mincho", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   color: #000;
+  letter-spacing: 0.3em;
 }
 .wt-download {
   background-color: #eee;
@@ -6379,6 +6363,22 @@ footer {
 .wt-setting .wt-setting-item .btn-default.active {
   color: #fff;
   background-color: #7baabf;
+}
+#wt_myinfo_modal .modal-dialog .modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#wt_myinfo_modal .modal-dialog .modal-content h4 {
+  text-align: center;
+  padding-left: 20px;
+}
+#wt_myinfo_modal .modal-dialog .modal-content .form-group {
+  color: #535353;
+}
+#wt_myinfo_modal .modal-dialog .modal-content .input-group {
+  background-color: transparent;
+}
+#wt_myinfo_modal .modal-dialog .modal-content .input-group-addon {
+  border: none;
 }
 /*--------------------------
  * webterakoya buttons

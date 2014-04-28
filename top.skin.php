@@ -58,11 +58,7 @@
 <!-- Body
 ================================================== -->
 <div id="contents">
-	<div class="row">
-		<div class="col-sm-12" role="main">
-			#{$body}
-		</div>
-	</div>
+  #{$body}
 </div>
 
 <aside>
