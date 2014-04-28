@@ -6175,41 +6175,41 @@ footer {
   letter-spacing: 0.1em;
   margin-bottom: 20px;
 }
-.jumbotron.wt-sitefooter2 {
+.wt-sitefooter2 {
   background-color: #9abdc2;
   color: #fff;
   margin-top: 30px;
 }
-.jumbotron.wt-sitefooter2 h2 {
+.wt-sitefooter2 h2 {
   font-size: 20px;
   color: #fff;
   letter-spacing: 0.2em;
 }
-.jumbotron.wt-sitefooter2 h3 {
+.wt-sitefooter2 h3 {
   font-size: 18px;
   color: #000;
   font-weight: bold;
 }
-.jumbotron.wt-sitefooter2 .wt-comment-box {
+.wt-sitefooter2 .wt-comment-box {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 60px;
   margin-right: 50px;
 }
-.jumbotron.wt-sitefooter2 .wt-comment {
+.wt-sitefooter2 .wt-comment {
   background-color: #fff;
   border: 1px solid #fff;
   margin-bottom: 30px;
   padding: 10px 40px;
 }
-.jumbotron.wt-sitefooter2 .wt-comment p {
+.wt-sitefooter2 .wt-comment p {
   font-size: 13px;
   color: #000;
 }
-.jumbotron.wt-sitefooter2 .wt-comment h3 {
+.wt-sitefooter2 .wt-comment h3 {
   font-size: 14px;
 }
-.jumbotron.wt-sitefooter2 .wt-selfcomment {
+.wt-sitefooter2 .wt-selfcomment {
   padding: 60px;
   margin-right: 50px;
 }
