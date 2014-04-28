@@ -5901,44 +5901,42 @@ footer {
 .haik-plugin-section .jumbotron {
   background-color: transparent;
 }
-.haik-plugin-section .wt-section-catch {
-  height: 306px;
+.wt-section-catch {
   padding: 60px 60px;
   margin: 0;
 }
-.haik-plugin-section .wt-section-catch h1 {
+.wt-section-catch h1 {
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 0.15em;
   color: #000000;
   margin-bottom: 50px;
 }
-.haik-plugin-section .wt-section-first {
+.wt-section-first {
   background-color: rgba(0, 138, 135, 0.8);
   height: 500px;
   padding: 30px 30px;
   margin: 0;
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-first img {
+  .wt-section-first img {
     max-width: 100%;
   }
 }
-.haik-plugin-section .wt-section-first h3 {
+.wt-section-first h3 {
   font-size: 18px;
   color: #ffffff;
   margin-bottom: 30px;
 }
-.haik-plugin-section .wt-section-merit {
-  height: 514px;
+.wt-section-merit {
   padding: 0;
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-merit {
+  .wt-section-merit {
     height: auto;
   }
 }
-.haik-plugin-section .wt-section-merit .wt-merit-box {
+.wt-section-merit .wt-merit-box {
   background-color: #ffffff;
   margin: 40px auto;
   padding: 70px 0;
@@ -5948,25 +5946,25 @@ footer {
   font-size: 14px;
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-merit .wt-merit-box {
+  .wt-section-merit .wt-merit-box {
     height: auto;
     width: 100%;
   }
 }
-.haik-plugin-section .wt-section-merit .wt-merit-box h2 {
+.wt-section-merit .wt-merit-box h2 {
   font-size: 24px;
   color: #ff9f00;
   margin-bottom: 50px;
 }
-.haik-plugin-section .wt-section-merit .wt-merit-box .wt-merit-item {
+.wt-section-merit .wt-merit-box .wt-merit-item {
   height: 214px;
   width: 189px;
   margin: 0 auto;
 }
-.haik-plugin-section .wt-section-merit .wt-merit-box .wt-merit-item p {
+.wt-section-merit .wt-merit-box .wt-merit-item p {
   font-size: 13px;
 }
-.haik-plugin-section .wt-section-wakaba {
+.wt-section-wakaba {
   background-image: url(../images/wt-background-midori.png);
   background-repeat: repeat;
   height: 135px;
@@ -5974,19 +5972,19 @@ footer {
   color: #ffffff;
   padding: 0 0;
 }
-.haik-plugin-section .wt-section-kouza .wt-kouza-box {
+.wt-section-kouza .wt-kouza-box {
   width: 678px;
   padding: 30px 0 30px 0;
   margin: 151px auto 52px auto;
   position: relative;
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-kouza .wt-kouza-box {
+  .wt-section-kouza .wt-kouza-box {
     height: auto;
     width: auto;
   }
 }
-.haik-plugin-section .wt-section-kouza .wt-kouza-box h3 {
+.wt-section-kouza .wt-kouza-box h3 {
   font-size: 18px;
   text-shadow: 5px 5px 3px #ddd;
   letter-spacing: 0.2em;
@@ -5994,12 +5992,12 @@ footer {
   margin-bottom: 30px;
   padding-left: 15px;
 }
-.haik-plugin-section .wt-section-kouza .wt-kouza-box .fukidashi {
+.wt-section-kouza .wt-kouza-box .fukidashi {
   position: absolute;
   top: -120px;
   left: -55px;
 }
-.haik-plugin-section .wt-section-kouza .wt-kouza-box .wt-kouza-item {
+.wt-section-kouza .wt-kouza-box .wt-kouza-item {
   height: 185px;
   width: 155px;
   margin: 0 auto;
@@ -6007,52 +6005,52 @@ footer {
   font-size: 12px;
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-kouza .wt-kouza-box .wt-kouza-item {
+  .wt-section-kouza .wt-kouza-box .wt-kouza-item {
     height: auto;
     width: auto;
   }
 }
 @media (max-width: 991px) {
-  .haik-plugin-section .wt-section-kouza .wt-kouza-box {
+  .wt-section-kouza .wt-kouza-box {
     margin-left: 30px;
     margin-right: 30px;
   }
 }
-.haik-plugin-section .wt-kouza-green {
+.wt-kouza-green {
   background-color: #ffffff;
   border: 4px solid #93A40B;
 }
-.haik-plugin-section .wt-kouza-green h3 {
+.wt-kouza-green h3 {
   color: #99a341;
 }
-.haik-plugin-section .wt-kouza-orange {
+.wt-kouza-orange {
   background-color: #ffffff;
   border: 4px solid #ff9f00;
 }
-.haik-plugin-section .wt-section-form {
+.wt-section-form {
   background-color: #4CC4AD;
   padding: 30px 30px;
   margin: 0;
   box-shadow: 0 5px rgba(100, 100, 100, 0.4) inset;
   position: relative;
 }
-.haik-plugin-section .wt-section-form .touroku-label {
+.wt-section-form .touroku-label {
   position: relative;
   display: none;
 }
 @media (min-width: 1200px) {
-  .haik-plugin-section .wt-section-form .touroku-label {
+  .wt-section-form .touroku-label {
     position: absolute;
     top: 0;
     right: 30px;
     display: block;
   }
 }
-.haik-plugin-section .wt-section-form h2 {
+.wt-section-form h2 {
   font-size: 24px;
   color: #ffffff;
 }
-.haik-plugin-section .wt-section-form h3 {
+.wt-section-form h3 {
   font-size: 14px;
   color: #ffffff;
   margin-bottom: 30px;
